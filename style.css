@@ -1,0 +1,91 @@
+/*=== Import fonts ===*/
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=Barlow+Semi+Condensed:ital,wght@0,500;0,600;1,500;1,600&family=Outfit:wght@300;400;600&family=Rubik:ital@0;1&display=swap");
+/*=== Coordinate all elements ===*/
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  box-sizing: border-box;
+  font-family: "Amiri", serif;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Outfit", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+}
+/*=== Special for centering the card ===*/
+.flix {
+  top: 50px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+/*=== The great one who is in all the elements ===*/
+.great {
+  width: 400px;
+  height: 550px;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: hsl(217, 54%, 11%);
+  box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05),
+    0px 40px 30px 15px rgba(0, 0, 0, 0.1);
+}
+/*=== Coordinate all elements of the card description ===*/
+.img-t {
+  text-align: center;
+}
+.img-t img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.info h3 {
+  padding: 10px 0;
+}
+.info h3:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+.info .o {
+  opacity: 0.5;
+  line-height: 25px;
+}
+
+.info-flix {
+  display: flex;
+  padding: 15px 0;
+  justify-content: space-between;
+}
+.info-flix .et {
+  color: hsl(178, 100%, 50%);
+}
+
+hr {
+  opacity: 0.2;
+  border: 1px solid #646464;
+}
+
+.im-t {
+  display: flex;
+  padding: 15px 0;
+  align-items: center;
+}
+.im-t img {
+  width: 30px;
+  margin: 0 5px;
+  border: 1px solid;
+  border-radius: 15px;
+}
+.im-t p {
+  opacity: 0.5;
+}
+.im-t p span {
+  margin: 0 5px;
+}
+.im-t p span:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
